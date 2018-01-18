@@ -5,4 +5,4 @@ ENV work /work
 ADD . $work
 WORKDIR $work
 
-ENTRYPOINT ["python","-m","http.server"]
+ENTRYPOINT ["python","-m","http.server","8888"]
